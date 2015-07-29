@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA4BBFB1B689756008204E2 /* MapDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4BBFA1B689756008204E2 /* MapDetail.m */; };
+		5AA4BBFE1B689847008204E2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4BBFD1B689847008204E2 /* DetailViewController.m */; };
 		5AACF2861B6731CB00A762B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2851B6731CB00A762B1 /* main.m */; };
 		5AACF2891B6731CB00A762B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2881B6731CB00A762B1 /* AppDelegate.m */; };
-		5AACF28C1B6731CB00A762B1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF28B1B6731CB00A762B1 /* FirstViewController.m */; };
-		5AACF28F1B6731CB00A762B1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF28E1B6731CB00A762B1 /* SecondViewController.m */; };
+		5AACF28C1B6731CB00A762B1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF28B1B6731CB00A762B1 /* HomeViewController.m */; };
+		5AACF28F1B6731CB00A762B1 /* MyMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF28E1B6731CB00A762B1 /* MyMapsViewController.m */; };
 		5AACF2921B6731CB00A762B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AACF2901B6731CB00A762B1 /* Main.storyboard */; };
 		5AACF2941B6731CB00A762B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AACF2931B6731CB00A762B1 /* Images.xcassets */; };
 		5AACF2971B6731CB00A762B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AACF2951B6731CB00A762B1 /* LaunchScreen.xib */; };
 		5AACF2A31B6731CB00A762B1 /* IndoorMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2A21B6731CB00A762B1 /* IndoorMapsTests.m */; };
+		5AACF2AE1B67341600A762B1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2AD1B67341600A762B1 /* SearchViewController.m */; };
+		5AACF2B11B67348600A762B1 /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2B01B67348600A762B1 /* CreateViewController.m */; };
+		5AACF2B41B6737AC00A762B1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2B31B6737AC00A762B1 /* MapViewController.m */; };
+		5AACF2B71B6738E000A762B1 /* CreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2B61B6738E000A762B1 /* CreateListViewController.m */; };
+		5AACF2BA1B67450D00A762B1 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2B91B67450D00A762B1 /* TabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +35,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AA4BBF91B689756008204E2 /* MapDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetail.h; sourceTree = "<group>"; };
+		5AA4BBFA1B689756008204E2 /* MapDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetail.m; sourceTree = "<group>"; };
+		5AA4BBFC1B689847008204E2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5AA4BBFD1B689847008204E2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5AACF2801B6731CB00A762B1 /* IndoorMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AACF2841B6731CB00A762B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AACF2851B6731CB00A762B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AACF2871B6731CB00A762B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AACF2881B6731CB00A762B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5AACF28A1B6731CB00A762B1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		5AACF28B1B6731CB00A762B1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5AACF28D1B6731CB00A762B1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5AACF28E1B6731CB00A762B1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5AACF28A1B6731CB00A762B1 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5AACF28B1B6731CB00A762B1 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5AACF28D1B6731CB00A762B1 /* MyMapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapsViewController.h; sourceTree = "<group>"; };
+		5AACF28E1B6731CB00A762B1 /* MyMapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapsViewController.m; sourceTree = "<group>"; };
 		5AACF2911B6731CB00A762B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AACF2931B6731CB00A762B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5AACF2961B6731CB00A762B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5AACF29C1B6731CB00A762B1 /* IndoorMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoorMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AACF2A11B6731CB00A762B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AACF2A21B6731CB00A762B1 /* IndoorMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndoorMapsTests.m; sourceTree = "<group>"; };
+		5AACF2AC1B67341600A762B1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		5AACF2AD1B67341600A762B1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		5AACF2AF1B67348600A762B1 /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		5AACF2B01B67348600A762B1 /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+		5AACF2B21B6737AC00A762B1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		5AACF2B31B6737AC00A762B1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		5AACF2B51B6738E000A762B1 /* CreateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateListViewController.h; sourceTree = "<group>"; };
+		5AACF2B61B6738E000A762B1 /* CreateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateListViewController.m; sourceTree = "<group>"; };
+		5AACF2B81B67450D00A762B1 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = ../TabBarViewController.h; sourceTree = "<group>"; };
+		5AACF2B91B67450D00A762B1 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = ../TabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +105,27 @@
 		5AACF2821B6731CB00A762B1 /* IndoorMaps */ = {
 			isa = PBXGroup;
 			children = (
+				5AA4BBF91B689756008204E2 /* MapDetail.h */,
+				5AA4BBFA1B689756008204E2 /* MapDetail.m */,
+				5AA4BBFC1B689847008204E2 /* DetailViewController.h */,
+				5AA4BBFD1B689847008204E2 /* DetailViewController.m */,
+				5AACF2B81B67450D00A762B1 /* TabBarViewController.h */,
+				5AACF2B91B67450D00A762B1 /* TabBarViewController.m */,
 				5AACF2871B6731CB00A762B1 /* AppDelegate.h */,
 				5AACF2881B6731CB00A762B1 /* AppDelegate.m */,
-				5AACF28A1B6731CB00A762B1 /* FirstViewController.h */,
-				5AACF28B1B6731CB00A762B1 /* FirstViewController.m */,
-				5AACF28D1B6731CB00A762B1 /* SecondViewController.h */,
-				5AACF28E1B6731CB00A762B1 /* SecondViewController.m */,
+				5AACF28A1B6731CB00A762B1 /* HomeViewController.h */,
+				5AACF28B1B6731CB00A762B1 /* HomeViewController.m */,
+				5AACF28D1B6731CB00A762B1 /* MyMapsViewController.h */,
+				5AACF28E1B6731CB00A762B1 /* MyMapsViewController.m */,
 				5AACF2901B6731CB00A762B1 /* Main.storyboard */,
+				5AACF2B51B6738E000A762B1 /* CreateListViewController.h */,
+				5AACF2B61B6738E000A762B1 /* CreateListViewController.m */,
+				5AACF2B21B6737AC00A762B1 /* MapViewController.h */,
+				5AACF2B31B6737AC00A762B1 /* MapViewController.m */,
+				5AACF2AF1B67348600A762B1 /* CreateViewController.h */,
+				5AACF2B01B67348600A762B1 /* CreateViewController.m */,
+				5AACF2AC1B67341600A762B1 /* SearchViewController.h */,
+				5AACF2AD1B67341600A762B1 /* SearchViewController.m */,
 				5AACF2931B6731CB00A762B1 /* Images.xcassets */,
 				5AACF2951B6731CB00A762B1 /* LaunchScreen.xib */,
 				5AACF2831B6731CB00A762B1 /* Supporting Files */,
@@ -224,10 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AACF28F1B6731CB00A762B1 /* SecondViewController.m in Sources */,
+				5AACF28F1B6731CB00A762B1 /* MyMapsViewController.m in Sources */,
+				5AA4BBFB1B689756008204E2 /* MapDetail.m in Sources */,
 				5AACF2891B6731CB00A762B1 /* AppDelegate.m in Sources */,
-				5AACF28C1B6731CB00A762B1 /* FirstViewController.m in Sources */,
+				5AACF2B11B67348600A762B1 /* CreateViewController.m in Sources */,
+				5AACF2AE1B67341600A762B1 /* SearchViewController.m in Sources */,
+				5AACF2B71B6738E000A762B1 /* CreateListViewController.m in Sources */,
+				5AACF28C1B6731CB00A762B1 /* HomeViewController.m in Sources */,
+				5AA4BBFE1B689847008204E2 /* DetailViewController.m in Sources */,
 				5AACF2861B6731CB00A762B1 /* main.m in Sources */,
+				5AACF2BA1B67450D00A762B1 /* TabBarViewController.m in Sources */,
+				5AACF2B41B6737AC00A762B1 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +395,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = IndoorMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,9 +407,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = IndoorMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -422,6 +468,7 @@
 				5AACF2A81B6731CB00A762B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AACF2A91B6731CB00A762B1 /* Build configuration list for PBXNativeTarget "IndoorMapsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +477,7 @@
 				5AACF2AB1B6731CB00A762B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 solid. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "MyMapsViewController.h"
 
-@interface SecondViewController ()
+@interface MyMapsViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation MyMapsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
