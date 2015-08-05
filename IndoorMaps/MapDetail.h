@@ -13,8 +13,8 @@
 
 @interface MapDetail : NSObject <NSCoding>
 
-@property (nonatomic, copy) NSString *name;
-@property (nonatomic, copy) NSString *description;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *description;
 
 + (NSArray *)mapDetails;
 

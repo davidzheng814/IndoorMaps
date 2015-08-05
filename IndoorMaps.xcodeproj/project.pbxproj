@@ -12,7 +12,6 @@
 		5AACF2861B6731CB00A762B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2851B6731CB00A762B1 /* main.m */; };
 		5AACF2891B6731CB00A762B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2881B6731CB00A762B1 /* AppDelegate.m */; };
 		5AACF28C1B6731CB00A762B1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF28B1B6731CB00A762B1 /* HomeViewController.m */; };
-		5AACF28F1B6731CB00A762B1 /* MyMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF28E1B6731CB00A762B1 /* MyMapsViewController.m */; };
 		5AACF2921B6731CB00A762B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AACF2901B6731CB00A762B1 /* Main.storyboard */; };
 		5AACF2941B6731CB00A762B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AACF2931B6731CB00A762B1 /* Images.xcassets */; };
 		5AACF2971B6731CB00A762B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AACF2951B6731CB00A762B1 /* LaunchScreen.xib */; };
@@ -22,6 +21,25 @@
 		5AACF2B41B6737AC00A762B1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2B31B6737AC00A762B1 /* MapViewController.m */; };
 		5AACF2B71B6738E000A762B1 /* CreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2B61B6738E000A762B1 /* CreateListViewController.m */; };
 		5AACF2BA1B67450D00A762B1 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AACF2B91B67450D00A762B1 /* TabBarViewController.m */; };
+		5AB1444A1B69D24E00C3CEFB /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB144491B69D24E00C3CEFB /* Map.m */; };
+		5AB1444D1B69D86800C3CEFB /* MapLoadSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1444C1B69D86800C3CEFB /* MapLoadSave.m */; };
+		5AB144551B7079E300C3CEFB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144531B7079E300C3CEFB /* Bolts.framework */; };
+		5AB144581B707A1800C3CEFB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144571B707A1800C3CEFB /* AudioToolbox.framework */; };
+		5AB1445A1B707A2400C3CEFB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144591B707A2400C3CEFB /* CFNetwork.framework */; };
+		5AB1445C1B707A2F00C3CEFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1445B1B707A2F00C3CEFB /* CoreGraphics.framework */; };
+		5AB1445E1B707A3700C3CEFB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1445D1B707A3700C3CEFB /* CoreLocation.framework */; };
+		5AB144601B707A3E00C3CEFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1445F1B707A3E00C3CEFB /* QuartzCore.framework */; };
+		5AB144621B707A4400C3CEFB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144611B707A4400C3CEFB /* Security.framework */; };
+		5AB144641B707A4A00C3CEFB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144631B707A4A00C3CEFB /* StoreKit.framework */; };
+		5AB144661B707A5600C3CEFB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144651B707A5600C3CEFB /* SystemConfiguration.framework */; };
+		5AB144681B707A6100C3CEFB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144671B707A6100C3CEFB /* libz.dylib */; };
+		5AB1446A1B707A6A00C3CEFB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144691B707A6A00C3CEFB /* libsqlite3.dylib */; };
+		5AB1446C1B707A7800C3CEFB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1446B1B707A7800C3CEFB /* Accounts.framework */; };
+		5AB1446E1B707A7E00C3CEFB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1446D1B707A7E00C3CEFB /* Social.framework */; };
+		5AB1446F1B708ECC00C3CEFB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144541B7079E300C3CEFB /* Parse.framework */; };
+		5AB144701B708F5600C3CEFB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144531B7079E300C3CEFB /* Bolts.framework */; };
+		5AB144711B708F5600C3CEFB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB144541B7079E300C3CEFB /* Parse.framework */; };
+		5AB144731B71CA3900C3CEFB /* MyMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB144721B71CA3900C3CEFB /* MyMapsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +65,6 @@
 		5AACF28A1B6731CB00A762B1 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		5AACF28B1B6731CB00A762B1 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5AACF28D1B6731CB00A762B1 /* MyMapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapsViewController.h; sourceTree = "<group>"; };
-		5AACF28E1B6731CB00A762B1 /* MyMapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapsViewController.m; sourceTree = "<group>"; };
 		5AACF2911B6731CB00A762B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AACF2931B6731CB00A762B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5AACF2961B6731CB00A762B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -64,6 +81,25 @@
 		5AACF2B61B6738E000A762B1 /* CreateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateListViewController.m; sourceTree = "<group>"; };
 		5AACF2B81B67450D00A762B1 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = ../TabBarViewController.h; sourceTree = "<group>"; };
 		5AACF2B91B67450D00A762B1 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = ../TabBarViewController.m; sourceTree = "<group>"; };
+		5AB144481B69D24E00C3CEFB /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		5AB144491B69D24E00C3CEFB /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		5AB1444B1B69D86800C3CEFB /* MapLoadSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLoadSave.h; sourceTree = "<group>"; };
+		5AB1444C1B69D86800C3CEFB /* MapLoadSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLoadSave.m; sourceTree = "<group>"; };
+		5AB144531B7079E300C3CEFB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		5AB144541B7079E300C3CEFB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		5AB144571B707A1800C3CEFB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5AB144591B707A2400C3CEFB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5AB1445B1B707A2F00C3CEFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AB1445D1B707A3700C3CEFB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5AB1445F1B707A3E00C3CEFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5AB144611B707A4400C3CEFB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5AB144631B707A4A00C3CEFB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5AB144651B707A5600C3CEFB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5AB144671B707A6100C3CEFB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5AB144691B707A6A00C3CEFB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5AB1446B1B707A7800C3CEFB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5AB1446D1B707A7E00C3CEFB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5AB144721B71CA3900C3CEFB /* MyMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +107,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB1446F1B708ECC00C3CEFB /* Parse.framework in Frameworks */,
+				5AB1446E1B707A7E00C3CEFB /* Social.framework in Frameworks */,
+				5AB1446C1B707A7800C3CEFB /* Accounts.framework in Frameworks */,
+				5AB1446A1B707A6A00C3CEFB /* libsqlite3.dylib in Frameworks */,
+				5AB144681B707A6100C3CEFB /* libz.dylib in Frameworks */,
+				5AB144661B707A5600C3CEFB /* SystemConfiguration.framework in Frameworks */,
+				5AB144641B707A4A00C3CEFB /* StoreKit.framework in Frameworks */,
+				5AB144621B707A4400C3CEFB /* Security.framework in Frameworks */,
+				5AB144601B707A3E00C3CEFB /* QuartzCore.framework in Frameworks */,
+				5AB1445E1B707A3700C3CEFB /* CoreLocation.framework in Frameworks */,
+				5AB1445C1B707A2F00C3CEFB /* CoreGraphics.framework in Frameworks */,
+				5AB1445A1B707A2400C3CEFB /* CFNetwork.framework in Frameworks */,
+				5AB144581B707A1800C3CEFB /* AudioToolbox.framework in Frameworks */,
+				5AB144551B7079E300C3CEFB /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB144701B708F5600C3CEFB /* Bolts.framework in Frameworks */,
+				5AB144711B708F5600C3CEFB /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +139,7 @@
 		5AACF2771B6731CB00A762B1 = {
 			isa = PBXGroup;
 			children = (
+				5AB1444E1B7078BB00C3CEFB /* Frameworks */,
 				5AACF2821B6731CB00A762B1 /* IndoorMaps */,
 				5AACF29F1B6731CB00A762B1 /* IndoorMapsTests */,
 				5AACF2811B6731CB00A762B1 /* Products */,
@@ -105,27 +158,11 @@
 		5AACF2821B6731CB00A762B1 /* IndoorMaps */ = {
 			isa = PBXGroup;
 			children = (
-				5AA4BBF91B689756008204E2 /* MapDetail.h */,
-				5AA4BBFA1B689756008204E2 /* MapDetail.m */,
-				5AA4BBFC1B689847008204E2 /* DetailViewController.h */,
-				5AA4BBFD1B689847008204E2 /* DetailViewController.m */,
-				5AACF2B81B67450D00A762B1 /* TabBarViewController.h */,
-				5AACF2B91B67450D00A762B1 /* TabBarViewController.m */,
-				5AACF2871B6731CB00A762B1 /* AppDelegate.h */,
-				5AACF2881B6731CB00A762B1 /* AppDelegate.m */,
-				5AACF28A1B6731CB00A762B1 /* HomeViewController.h */,
-				5AACF28B1B6731CB00A762B1 /* HomeViewController.m */,
-				5AACF28D1B6731CB00A762B1 /* MyMapsViewController.h */,
-				5AACF28E1B6731CB00A762B1 /* MyMapsViewController.m */,
+				5AB144521B70796800C3CEFB /* Search */,
+				5AB144511B70795300C3CEFB /* Create */,
+				5AB144501B70792200C3CEFB /* Main */,
+				5AB1444F1B7078D000C3CEFB /* Map */,
 				5AACF2901B6731CB00A762B1 /* Main.storyboard */,
-				5AACF2B51B6738E000A762B1 /* CreateListViewController.h */,
-				5AACF2B61B6738E000A762B1 /* CreateListViewController.m */,
-				5AACF2B21B6737AC00A762B1 /* MapViewController.h */,
-				5AACF2B31B6737AC00A762B1 /* MapViewController.m */,
-				5AACF2AF1B67348600A762B1 /* CreateViewController.h */,
-				5AACF2B01B67348600A762B1 /* CreateViewController.m */,
-				5AACF2AC1B67341600A762B1 /* SearchViewController.h */,
-				5AACF2AD1B67341600A762B1 /* SearchViewController.m */,
 				5AACF2931B6731CB00A762B1 /* Images.xcassets */,
 				5AACF2951B6731CB00A762B1 /* LaunchScreen.xib */,
 				5AACF2831B6731CB00A762B1 /* Supporting Files */,
@@ -157,6 +194,79 @@
 				5AACF2A11B6731CB00A762B1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AB1444E1B7078BB00C3CEFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB144541B7079E300C3CEFB /* Parse.framework */,
+				5AB1446D1B707A7E00C3CEFB /* Social.framework */,
+				5AB1446B1B707A7800C3CEFB /* Accounts.framework */,
+				5AB144691B707A6A00C3CEFB /* libsqlite3.dylib */,
+				5AB144671B707A6100C3CEFB /* libz.dylib */,
+				5AB144651B707A5600C3CEFB /* SystemConfiguration.framework */,
+				5AB144631B707A4A00C3CEFB /* StoreKit.framework */,
+				5AB144611B707A4400C3CEFB /* Security.framework */,
+				5AB1445F1B707A3E00C3CEFB /* QuartzCore.framework */,
+				5AB1445D1B707A3700C3CEFB /* CoreLocation.framework */,
+				5AB1445B1B707A2F00C3CEFB /* CoreGraphics.framework */,
+				5AB144591B707A2400C3CEFB /* CFNetwork.framework */,
+				5AB144571B707A1800C3CEFB /* AudioToolbox.framework */,
+				5AB144531B7079E300C3CEFB /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AB1444F1B7078D000C3CEFB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				5AACF28D1B6731CB00A762B1 /* MyMapsViewController.h */,
+				5AB144721B71CA3900C3CEFB /* MyMapsViewController.m */,
+				5AACF2B21B6737AC00A762B1 /* MapViewController.h */,
+				5AACF2B31B6737AC00A762B1 /* MapViewController.m */,
+				5AB144481B69D24E00C3CEFB /* Map.h */,
+				5AB144491B69D24E00C3CEFB /* Map.m */,
+				5AB1444B1B69D86800C3CEFB /* MapLoadSave.h */,
+				5AB1444C1B69D86800C3CEFB /* MapLoadSave.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		5AB144501B70792200C3CEFB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5AACF2871B6731CB00A762B1 /* AppDelegate.h */,
+				5AACF2881B6731CB00A762B1 /* AppDelegate.m */,
+				5AACF2B81B67450D00A762B1 /* TabBarViewController.h */,
+				5AACF2B91B67450D00A762B1 /* TabBarViewController.m */,
+				5AACF28A1B6731CB00A762B1 /* HomeViewController.h */,
+				5AACF28B1B6731CB00A762B1 /* HomeViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5AB144511B70795300C3CEFB /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				5AACF2B51B6738E000A762B1 /* CreateListViewController.h */,
+				5AACF2B61B6738E000A762B1 /* CreateListViewController.m */,
+				5AACF2AF1B67348600A762B1 /* CreateViewController.h */,
+				5AACF2B01B67348600A762B1 /* CreateViewController.m */,
+			);
+			name = Create;
+			sourceTree = "<group>";
+		};
+		5AB144521B70796800C3CEFB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4BBF91B689756008204E2 /* MapDetail.h */,
+				5AA4BBFA1B689756008204E2 /* MapDetail.m */,
+				5AA4BBFC1B689847008204E2 /* DetailViewController.h */,
+				5AA4BBFD1B689847008204E2 /* DetailViewController.m */,
+				5AACF2AC1B67341600A762B1 /* SearchViewController.h */,
+				5AACF2AD1B67341600A762B1 /* SearchViewController.m */,
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,17 +369,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AACF28F1B6731CB00A762B1 /* MyMapsViewController.m in Sources */,
 				5AA4BBFB1B689756008204E2 /* MapDetail.m in Sources */,
 				5AACF2891B6731CB00A762B1 /* AppDelegate.m in Sources */,
+				5AB144731B71CA3900C3CEFB /* MyMapsViewController.m in Sources */,
 				5AACF2B11B67348600A762B1 /* CreateViewController.m in Sources */,
 				5AACF2AE1B67341600A762B1 /* SearchViewController.m in Sources */,
 				5AACF2B71B6738E000A762B1 /* CreateListViewController.m in Sources */,
+				5AB1444A1B69D24E00C3CEFB /* Map.m in Sources */,
 				5AACF28C1B6731CB00A762B1 /* HomeViewController.m in Sources */,
 				5AA4BBFE1B689847008204E2 /* DetailViewController.m in Sources */,
 				5AACF2861B6731CB00A762B1 /* main.m in Sources */,
 				5AACF2BA1B67450D00A762B1 /* TabBarViewController.m in Sources */,
 				5AACF2B41B6737AC00A762B1 /* MapViewController.m in Sources */,
+				5AB1444D1B69D86800C3CEFB /* MapLoadSave.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +508,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IndoorMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +524,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IndoorMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +542,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -441,6 +562,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = IndoorMapsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

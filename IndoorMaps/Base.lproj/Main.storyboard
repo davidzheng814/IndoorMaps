@@ -59,7 +59,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="AAu-zc-mx4" kind="show" id="0vu-Tj-VIT"/>
+                                    <segue destination="AAu-zc-mx4" kind="show" identifier="showMapSegue" id="0vu-Tj-VIT"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -107,7 +107,7 @@
         <!--Map Interface-->
         <scene sceneID="zqE-ve-Ee4">
             <objects>
-                <viewController title="Map Interface" id="AAu-zc-mx4" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController title="Map Interface" hidesBottomBarWhenPushed="YES" id="AAu-zc-mx4" customClass="MapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GwE-0Q-Svu"/>
                         <viewControllerLayoutGuide type="bottom" id="lWX-qE-5n9"/>
@@ -120,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ID3-wN-3fX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2326" y="358"/>
+            <point key="canvasLocation" x="2462" y="298"/>
         </scene>
         <!--MapNavigation-->
         <scene sceneID="82D-wZ-bqV">

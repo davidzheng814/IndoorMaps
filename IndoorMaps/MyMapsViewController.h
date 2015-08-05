@@ -10,6 +10,5 @@
 
 @interface MyMapsViewController : UITableViewController
 
-
 @end
 

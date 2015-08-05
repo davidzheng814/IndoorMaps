@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MapLoadSave.h"
+#import "Map.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +19,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Parse enableLocalDatastore];
+    
+    [Parse setApplicationId:@"SBFOmi26cvbwNtGObsd3asAI73gxAjuyySYv77YE"
+                  clientKey:@"Pw2WDzYhijf2TddpuXJmgvcqxX1t2HpLaRLGj7qP"];
+    
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    [MapLoadSave initialize];
+    
+    
     return YES;
 }
 

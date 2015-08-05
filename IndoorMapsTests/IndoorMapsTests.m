@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "MapLoadSave.h"
 
 @interface IndoorMapsTests : XCTestCase
 
@@ -28,6 +29,9 @@
 - (void)testExample {
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
+}
+
+- (void)testMapLoadSave {
 }
 
 - (void)testPerformanceExample {
